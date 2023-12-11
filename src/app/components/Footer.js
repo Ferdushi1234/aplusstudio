@@ -75,10 +75,10 @@ const Footer = () => {
                 <div className={footerStyles['bottom-details']}>
                     <div className={footerStyles.bottom_text}>
                         <span className={footerStyles.copyright_text}> Copyright © 2023
-                            <Link aria-label="Home" href="/>"> A Plus Studio.</Link> All rights reserved </span>
+                            <Link aria-label="A Plus Studio." href="/>"> A Plus Studio.</Link> All rights reserved </span>
                         <span className={footerStyles.policy_terms}>
-                            <Link aria-label="Home" href="/">Privacy policy</Link>
-                            <Link aria-label="Home" href="/">Terms & condition</Link>
+                            <Link aria-label="Privacy policy" href="/">Privacy policy</Link>
+                            <Link aria-label="Terms & condition" href="/">Terms & condition</Link>
                         </span>
                     </div>
                 </div>
