@@ -23,6 +23,7 @@ export const metadata = {
     type: 'website',
   },
 }
+
 const Aboutpage = () => {
   return (
     <>
