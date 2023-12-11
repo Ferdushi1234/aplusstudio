@@ -26,11 +26,11 @@ export const metadata = {
     telephone: '9873250016',
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
     nocache: true,
     googleBot: {
-      index: true,
+      noindex: true,
       follow: false,
       noimageindex: true,
       'max-video-preview': -1,
