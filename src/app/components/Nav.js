@@ -12,7 +12,7 @@ export default function Home() {
         <div  className="bg-[#292524]  justify-between   px-12 mx-auto  md:items-center md:flex">
           <div>
             <div className=" flex items-center h-24 justify-between   md:block">
-              <Link aria-label="Home" href="/" className="  items-center">
+              <Link rel="canonical" aria-label="Home" href="/" className="  items-center">
                 <Image
                   src="/log2.svg"
                   alt="Logo"
@@ -67,42 +67,42 @@ export default function Home() {
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-white text-xl font-bold hover:text-red-200 mr-4 my-auto  ">
-                  <Link aria-label="Home" href="/">
+                  <Link rel="canonical" aria-label="Home" href="/">
                     Home
                   </Link>
                 </li>
                 <li className="text-white text-xl font-bold hover:text-red-200 mr-4 my-auto  ">
-                  <Link aria-label="Services" href="/service">
+                  <Link rel="canonical" aria-label="Services" href="/service">
                     Services
                   </Link>
                 </li>
                 <li className="text-white text-xl font-bold hover:text-red-200 mr-4 my-auto  ">
-                  <Link aria-label="Products" href="/products">
+                  <Link rel="canonical" aria-label="Products" href="/products">
                     Products
                   </Link>
                 </li>
                 <li className="text-white text-xl font-bold hover:text-red-200 mr-4 my-auto  ">
-                  <Link aria-label="About us" href="/about">
+                  <Link rel="canonical" aria-label="About us" href="/about">
                     About us
                   </Link>
                 </li>
                 <li className="text-white text-xl font-bold  hover:text-red-200 mr-4 my-auto    " >
-                  <Link aria-label="Contact us" href="/contacts">
+                  <Link rel="canonical" aria-label="Contact us" href="/contacts">
                     Contact us
                   </Link>
                 </li>
                 <li className="text-white text-xl font-bold  hover:text-red-200 mr-4 my-auto    " >
-                  <Link aria-label="Ourteam" href="/ourteam">
+                  <Link rel="canonical" aria-label="Ourteam" href="/ourteam">
                     Ourteam
                   </Link>
                 </li>
                 <li className="text-white text-xl font-bold  hover:text-red-200 mr-4 my-auto    " >
-                  <Link aria-label="Gallery" href="/gallery">
+                  <Link rel="canonical" aria-label="Gallery" href="/gallery">
                     Gallery
                   </Link>
                 </li>
                 <li className="text-white">
-                  <Link aria-label="Login" href='/admin'>
+                  <Link rel="canonical" aria-label="Login" href='/admin'>
                   <button type="button" className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Login</button>
                     </Link>
                 </li>

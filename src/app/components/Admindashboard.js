@@ -142,7 +142,7 @@ const Admin = () => {
 
                 {/*........................signOut admin Pannel*/}
                 <li> 
-                  <Link  href='/api/auth/signout'>
+                  <Link rel="canonical" href='/api/auth/signout'>
                   <button 
                   onClick={(e)=>{
                     e.preventDefault()
