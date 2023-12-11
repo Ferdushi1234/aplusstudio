@@ -47,7 +47,7 @@ const about = () => {
                                 by our innovative ideas which then converted into design to make a new product.
                                 Our motto is to provide a complete high quality finished product for your dream project’s architectural division.
                             </p>
-                            <Link href="/about/1"
+                            <Link aria-label="about" href="/about/1"
                                 className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
                                 Learn more
                             </Link>

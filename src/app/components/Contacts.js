@@ -86,7 +86,7 @@ const Contact = () => {
                     </p>
                     <p className="text-neutral-600 ">Monday to Saturday Expected </p>
                         <p className="text-neutral-600 ">response time: 24 hours </p>
-                        <Link href="https://gmail.com">  Send Email <span>-&gt;</span></Link>
+                        <Link aria-label="Email" href="https://gmail.com">  Send Email <span>-&gt;</span></Link>
                   </div>
                 </div>
               </div>
@@ -152,7 +152,7 @@ const Contact = () => {
                     </p>
                     <p className="text-neutral-600 ">Weekdays: 9 AM — 6 PM </p>
                         <p className="text-neutral-600 ">Weekends: 9 AM — 5 PM </p>
-                        <Link href="/" >  Chat Now <span>-&gt;</span></Link>
+                        <Link aria-label="Live Chat" href="/" >  Chat Now <span>-&gt;</span></Link>
                   </div>
                 </div>
               </div>

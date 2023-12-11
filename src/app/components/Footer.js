@@ -26,11 +26,11 @@ const Footer = () => {
                             />
                         </div>
                         <div className={footerStyles[`media-icons`]}>
-                            <Link href="/"><i > <FaFacebookF /> </i></Link>
-                            <Link href="https://twitter.com/aplusstudio_in"><i > <FaTwitter /> </i> </Link>
-                            <Link href="https://www.instagram.com/aplusstudio.in/" target="_blank"><i > <FaInstagram />  </i></Link>
-                            <Link href="https://www.linkedin.com/in/a-plus-studio-688644295?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B82KwpL9pR%2Fa8K2n380TcRA%3D%3D"><i > <FaLinkedinIn /> </i></Link>
-                            <Link href="#"><i > <FaYoutube />  </i></Link>
+                            <Link aria-label="Home" href="/"><i > <FaFacebookF /> </i></Link>
+                            <Link aria-label="Twitter" href="https://twitter.com/aplusstudio_in"><i > <FaTwitter /> </i> </Link>
+                            <Link aria-label="Instagram" href="https://www.instagram.com/aplusstudio.in/" target="_blank"><i > <FaInstagram />  </i></Link>
+                            <Link aria-label="Linkedin" href="https://www.linkedin.com/in/a-plus-studio-688644295?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B82KwpL9pR%2Fa8K2n380TcRA%3D%3D"><i > <FaLinkedinIn /> </i></Link>
+                            <Link aria-label="Youtube" href="/"><i > <FaYoutube />  </i></Link>
                         </div>
                     </div>
                     <div className={footerStyles['link-boxes']}>
@@ -75,10 +75,10 @@ const Footer = () => {
                 <div className={footerStyles['bottom-details']}>
                     <div className={footerStyles.bottom_text}>
                         <span className={footerStyles.copyright_text}> Copyright © 2023
-                            <Link href="/>"> A Plus Studio.</Link> All rights reserved </span>
+                            <Link aria-label="Home" href="/>"> A Plus Studio.</Link> All rights reserved </span>
                         <span className={footerStyles.policy_terms}>
-                            <Link href="/">Privacy policy</Link>
-                            <Link href="/">Terms & condition</Link>
+                            <Link aria-label="Home" href="/">Privacy policy</Link>
+                            <Link aria-label="Home" href="/">Terms & condition</Link>
                         </span>
                     </div>
                 </div>

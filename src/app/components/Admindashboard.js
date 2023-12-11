@@ -41,7 +41,7 @@ const Admin = () => {
                   ><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" /></svg></span
                   >
-                  <Link href='/'><span className="">Overview</span></Link>
+                  <Link aria-label="Home" href='/'><span className="">Overview</span></Link>
                 </button>
               </li>
               <li className="relative">
@@ -51,7 +51,7 @@ const Admin = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
                     </svg> </span>
                     <span className="">
-                      <Link href='/'>Add Post</Link>
+                      <Link aria-label="Home" href='/'>Add Post</Link>
                     </span>
                 </button>
                 <svg className="text-slate-200 absolute -right-1 -top-1/2 z-10 hidden h-32 w-8 md:block" xmlns="http://www.w3.org/2000/svg" viewBox="399.349 57.696 100.163 402.081" width="1em" height="4em">
@@ -142,7 +142,7 @@ const Admin = () => {
 
                 {/*........................signOut admin Pannel*/}
                 <li> 
-                  <Link href='/api/auth/signout'>
+                  <Link  href='/api/auth/signout'>
                   <button 
                   onClick={(e)=>{
                     e.preventDefault()
