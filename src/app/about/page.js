@@ -25,10 +25,7 @@ export const metadata = {
     address: 'noida sector-83 A-Block 218-219 pin-201305',
     telephone: '9873250016',
   },
-  robots: {
-    index: false,
-    follow: true,
-    nocache: true,
+
     googleBot: {
       noindex: true,
       follow: false,
@@ -37,7 +34,7 @@ export const metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
+  
   icons: {
     icon: [{ url: '/icon.png' }, new URL('/icon.png', 'https://example.com')],
     shortcut: ['/shortcut-icon.png'],
