@@ -27,12 +27,12 @@ export const metadata = {
     telephone: '9873250016',
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
     nocache: true,
     googleBot: {
-      noindex: true,
-      nofollow: true,
+      index: true,
+      follow: false,
       noimageindex: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
@@ -40,16 +40,16 @@ export const metadata = {
     },
   },
   icons: {
-    icon: [{ url: '/icon.png' }, new URL('/icon.png', 'https://example.com')],
+    icon: [{ url: '/favicon.ico' }, new URL('/favicon.ico', 'https://aplusstudio.in')],
     shortcut: ['/shortcut-icon.png'],
     apple: [
-      { url: '/apple-icon.png' },
-      { url: '/apple-icon-x3.png', sizes: '180x180', type: 'image/png' },
+      { url: '/favicon.ico' },
+      { url: '/favicon.ico', sizes: '180x180', type: 'image/png' },
     ],
     other: [
       {
         rel: 'apple-touch-icon-precomposed',
-        url: '/apple-touch-icon-precomposed.png',
+        url: 'favicon.ico',
       },
     ],
   },
@@ -69,6 +69,17 @@ export const metadata = {
     other: {
       me: ['my-email', 'my-link'],
     },
+  },
+
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'de-DE': '/de-DE',
+    },
+  },
+  openGraph: {
+    images: '/og-image.png',
   },
 }
 function page() {
