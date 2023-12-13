@@ -70,13 +70,13 @@ export const metadata = {
     images: '/og-image.png',
   },
   robots: {
-    noindex: true,
+    noindex: false,
     follow: true,
     nocache: true,
     googleBot: {
-      noindex: true,
+      noindex: false,
       nofollow: true,
-      noimageindex: true,
+      noimageindex: false,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
