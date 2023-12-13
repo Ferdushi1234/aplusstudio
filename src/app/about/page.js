@@ -26,7 +26,7 @@ export const metadata = {
     telephone: '9873250016',
   },
   robots: {
-    index: true,
+    noindex: true,
     follow: true,
     nocache: true,
     googleBot: {
