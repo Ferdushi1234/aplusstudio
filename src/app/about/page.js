@@ -31,7 +31,7 @@ export const metadata = {
     nocache: true,
     googleBot: {
       noindex: true,
-      follow: true,
+      nofollow: true,
       noimageindex: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
