@@ -69,6 +69,19 @@ export const metadata = {
   openGraph: {
     images: '/og-image.png',
   },
+  robots: {
+    noindex: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      noindex: true,
+      nofollow: true,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 }
 function page() {
   return (
