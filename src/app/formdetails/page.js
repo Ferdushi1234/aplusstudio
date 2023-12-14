@@ -4,7 +4,7 @@ import Formdetails from "@/app/components/Formdetails";
 const Contact = () => {
     return (
         <>
-            <div style={{marginBottom: '-6rem'}} class="bg-cover bg-center bg-[url('/AP10.jpg')] bg-fixed">
+            <div style={{marginBottom: '-6rem'}} class="bg-cover bg-center bg-[url('/APS31.avif')] bg-fixed">
                 <div className={styles.container}>
                     <section className={styles.contact_section}>
                         <h1>order details</h1>
