@@ -21,8 +21,9 @@ const about = () => {
                       width={1000}
                       height={1000}
                       src="/AP6.jpg"
-                      alt=""
+                      alt="proimage"
                       className="w-full rounded-2xl"
+                      priority sizes='50vw'
                     />
                   </div>
                   <div className="py-3 sm:py-4">
@@ -30,8 +31,9 @@ const about = () => {
                       width={1000}
                       height={1000}
                       src="/AP5.jpg"
-                      alt=""
+                      alt="proimage"
                       className="w-full rounded-2xl"
+                      priority sizes='50vw'
                     />
                   </div>
                 </div>
@@ -41,8 +43,9 @@ const about = () => {
                       width={1000}
                       height={1000}
                       src="/AP4.jpg"
-                      alt=""
+                      alt="proimage"
                       className="w-full rounded-2xl"
+                      priority sizes='50vw'
                     />
                   </div>
                 </div>

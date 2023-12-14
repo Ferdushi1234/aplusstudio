@@ -25,6 +25,7 @@ const Services = () => {
                   width={450}
                   height={100}
                   className=' rounded-sm'
+                  priority sizes='20vw'
                 />
               </div>
             </div>
@@ -46,6 +47,7 @@ const Services = () => {
               width={450}
               height={100}
               className='rounded-sm'
+              priority sizes='20vw'
             />
           </div>
         </div>

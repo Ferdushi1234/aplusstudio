@@ -18,8 +18,9 @@ const about = () => {
                     <div className="flex flex-wrap ">
                         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                             <div className="relative z-10 my-4">
-                                <Image src="/CEO.jpg" alt=""
+                                <Image src="/CEO.jpg" alt="CEO"
                                     width={1000} height={1000}
+                                    priority sizes='50vw'
                                     className="relative z-40 object-cover w-full h-100 lg:rounded-tr-[80px] lg:rounded-bl-[80px] rounded" />
                                 <div
                                     className="absolute z-10 hidden w-full h-full bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 rounded-bl-[80px] rounded -bottom-6 right-6 lg:block">
