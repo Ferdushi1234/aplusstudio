@@ -45,7 +45,7 @@ export default async function ProductsList() {
 
           <div className="flex gap-2">
             <RemoveBtn id={t._id} />
-            <Link rel="canonical" href={`/`}>
+            <Link href={`/`}>
               <HiPencilAlt size={24} />
             </Link>
           </div>

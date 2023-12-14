@@ -35,7 +35,7 @@ export default async function ProductsList() {
     key={products._id}
      className="flex w-1/3 flex-wrap">
       <div className="w-full p-0 md:p-6">
-        <Link rel="canonical"  href={`/gallery/${products._id}`}>
+        <Link href={`/gallery/${products._id}`}>
         <Image
         width={1000}
         height={1000}

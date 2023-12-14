@@ -27,8 +27,8 @@ const Admin = () => {
                   src="/log2.svg"
                   alt="ecommerce"
                   className="object-cover object-center w-20 h-20 "
-                  width={0}
-                  height={0}
+                  width={1000}
+                  height={1000}
                 />
             
                
@@ -142,7 +142,7 @@ const Admin = () => {
 
                 {/*........................signOut admin Pannel*/}
                 <li> 
-                  <Link rel="canonical" href='/api/auth/signout'>
+                  <Link href='/api/auth/signout'>
                   <button 
                   onClick={(e)=>{
                     e.preventDefault()

@@ -26,11 +26,11 @@ const Footer = () => {
                             />
                         </div>
                         <div className={footerStyles[`media-icons`]}>
-                            <Link rel="canonical" aria-label="Home" href="/"><i > <FaFacebookF /> </i></Link>
-                            <Link rel="canonical" aria-label="Twitter" href="https://twitter.com/aplusstudio_in"><i > <FaTwitter /> </i> </Link>
-                            <Link rel="canonical" aria-label="Instagram" href="https://www.instagram.com/aplusstudio.in/" target="_blank"><i > <FaInstagram />  </i></Link>
-                            <Link rel="canonical" aria-label="Linkedin" href="https://www.linkedin.com/in/a-plus-studio-688644295?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B82KwpL9pR%2Fa8K2n380TcRA%3D%3D"><i > <FaLinkedinIn /> </i></Link>
-                            <Link rel="canonical" aria-label="Youtube" href="/"><i > <FaYoutube />  </i></Link>
+                            <Link aria-label="Home" href="/"><i > <FaFacebookF /> </i></Link>
+                            <Link aria-label="Twitter" href="https://twitter.com/aplusstudio_in"><i > <FaTwitter /> </i> </Link>
+                            <Link aria-label="Instagram" href="https://www.instagram.com/aplusstudio.in/" target="_blank"><i > <FaInstagram />  </i></Link>
+                            <Link aria-label="Linkedin" href="https://www.linkedin.com/in/a-plus-studio-688644295?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B82KwpL9pR%2Fa8K2n380TcRA%3D%3D"><i > <FaLinkedinIn /> </i></Link>
+                            <Link aria-label="Youtube" href="/"><i > <FaYoutube />  </i></Link>
                         </div>
                     </div>
                     <div className={footerStyles['link-boxes']}>
@@ -54,8 +54,8 @@ const Footer = () => {
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Account</li>
                             <li><a href="/">Profile</a></li>
-                            <li><a href="#">My account</a></li>
-                            <li><a href="#">Prefrences</a></li>
+                            <li><a href="/">My account</a></li>
+                            <li><a href="/">Prefrences</a></li>
                             <li><a href="/products">Purchase</a></li>
                         </ul>
                         <ul className={footerStyles.box}>
@@ -75,10 +75,10 @@ const Footer = () => {
                 <div className={footerStyles['bottom-details']}>
                     <div className={footerStyles.bottom_text}>
                         <span className={footerStyles.copyright_text}> Copyright © 2023
-                            <Link rel="canonical" aria-label="A Plus Studio." href="/>"> A Plus Studio.</Link> All rights reserved </span>
+                            <Link aria-label="A Plus Studio." href="/>"> A Plus Studio.</Link> All rights reserved </span>
                         <span className={footerStyles.policy_terms}>
-                            <Link rel="canonical" aria-label="Privacy policy" href="/">Privacy policy</Link>
-                            <Link rel="canonical" aria-label="Terms & condition" href="/">Terms & condition</Link>
+                            <Link aria-label="Privacy policy" href="/">Privacy policy</Link>
+                            <Link aria-label="Terms & condition" href="/">Terms & condition</Link>
                         </span>
                     </div>
                 </div>

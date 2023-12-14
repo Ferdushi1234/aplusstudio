@@ -32,7 +32,7 @@ export default async function ProductsList() {
           className="p-4   flex justify-between  items-start"
         >
           <div>
-          <Link rel="canonical" href={`/gallry/${products._id}`}>
+          <Link href={`/gallry/${products._id}`}>
             <Image 
             width={10000}
             height={10000}
