@@ -4,7 +4,7 @@ const Door = () => {
   return (
     <>
     <div style={{marginBottom:'-9rem', marginTop:'-1rem'}}>
-      <section className="bg-[url('/APS10.avif')] bg-cover bg-fixed relative z-10 my-4  overflow-hidden pt-40  lg:pt-[200px] lg:pb-[90px]">       
+      <section className="bg-[url('/APS31.avif')] bg-cover bg-fixed relative z-10 my-4  overflow-hidden pt-40  lg:pt-[200px] lg:pb-[90px]">       
           <h1  className=" pt-2 relative z-10 my-4  text-4xl mb-12 tracking-tight font-extrabold text-center  text-gray-900 text-white">Wall Cladding</h1>       
         <div className="space-y-15">
           <div
