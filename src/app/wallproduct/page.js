@@ -17,13 +17,11 @@ const Wall = () => {
               </div>
               <div className="mx-auto w-1/2 md:w-1/3">                
                    <Image 
-            width={10000}
-            height={10000}
-            priority sizes='40vw'
+            width={1000}
+            height={1000}
             className=" rounded-xl  transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/S-1 copy.jpg' alt='' />
               </div>
             </div>
-
           </div>
         </div>
         <div
