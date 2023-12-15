@@ -9,14 +9,14 @@ const Services = () => {
 <main style={{marginBottom: '-9rem'}} className={heroStyles.main_section}>
 <div  className=" py-24 bg-stone-100 ">
         <div className="relative z-10 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto ">
-          <h1  className=" text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-black"> About Services</h1>
+          <h1  className=" text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-black">About Services</h1>
           <div className="space-y-16">
             <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
               <div className="w-full md:w-1/4 space-y-4">
-                <h1 className="font-medium text-2xl"> Wall Cladding</h1>
-                <p > A plus studio provides the good and unique quality of Wall cladding for the covering of a wall with materials that provide both aesthetic and functional benefits. 
-                </p>
+                <h1 className="font-medium text-2xl">Wall Cladding</h1>
+                <h2 > A plus studio provides the good and unique quality of wall cladding for the covering of a wall with materials that provide both aesthetic and functional benefits. 
+                </h2>
               </div>
               <div className="mx-auto w-1/2 md:w-1/3">
                 <Image
@@ -25,7 +25,7 @@ const Services = () => {
                   width={450}
                   height={100}
                   className=' rounded-sm'
-                  priority sizes='20vw'
+                  priority sizes='40vw'
                 />
               </div>
             </div>
@@ -36,9 +36,9 @@ const Services = () => {
           className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center md:flex-row-reverse">
           <div className="w-full md:w-1/4 space-y-4">
             <h1 style={{ marginLeft: 30, marginRight: 30 }} className="font-medium text-2xl">High Quality Doores</h1>
-            <p style={{ marginLeft: 30, marginRight: 30 }}>
-                  A plus studio provides the high & good quality of doores. with Concealed Hinge quality of Hinges  for your interior swinging doors. with movement, Adjustability and functionality.
-                </p>
+            <h2 style={{ marginLeft: 30, marginRight: 30 }}>
+                  A plus studio provides the high & good quality of doores. with concealed hinge quality of hinges  for your interior swinging doors. with movement, Adjustability and functionality.
+                </h2>
           </div>
           <div className="mx-auto w-1/2 md:w-1/3">
             <Image
@@ -47,7 +47,7 @@ const Services = () => {
               width={450}
               height={100}
               className='rounded-sm'
-              priority sizes='20vw'
+              priority sizes='40vw'
             />
           </div>
         </div>

@@ -28,15 +28,15 @@ export default async function Door_formList() {
         >
           <div>
           <h1 className="mt-1 text-lg font-extrabold text-gray-900">Custumer name:--  {door_form.custumer_name}</h1>  
-          <h1 className=" text-lg text-gray-900">Product name:--  {door_form.productname}</h1>              
-          <h4 className="mb-1 text-gray-600">Code_of_Product:--  {door_form.code}</h4>
-          <h4 className="mb-1 text-gray-600">Quantity:--  {door_form.quantity}</h4>
-          <h4 className="mb-1 text-gray-600">Size:--  {door_form.size} X {door_form.size2}</h4>
-          <h4 className="mb-1 text-gray-600">Colour_name:--  {door_form.colorName}</h4>
-          <h4 className="mb-1 text-gray-600">Polish/vineer:--  {door_form.polish}</h4>
-          <h4 className="mb-1 text-gray-600">Hinge:--  {door_form.hinge}</h4>
-          <h4 className="mb-1 text-gray-600">Door_opning:--  {door_form.door_opning}</h4>
-          <h4 className="mb-1 text-gray-600">Message:--     {door_form.message}</h4>
+          <h2 className=" text-lg text-gray-900">Product name:--  {door_form.productname}</h2>              
+          <h3 className="mb-1 text-gray-600">Code_of_Product:--  {door_form.code}</h3>
+          <h3 className="mb-1 text-gray-600">Quantity:--  {door_form.quantity}</h3>
+          <h3 className="mb-1 text-gray-600">Size:--  {door_form.size} X {door_form.size2}</h3>
+          <h3 className="mb-1 text-gray-600">Colour_name:--  {door_form.colorName}</h3>
+          <h3 className="mb-1 text-gray-600">Polish/vineer:--  {door_form.polish}</h3>
+          <h3 className="mb-1 text-gray-600">Hinge:--  {door_form.hinge}</h3>
+          <h3 className="mb-1 text-gray-600">Door_opning:--  {door_form.door_opning}</h3>
+          <h3 className="mb-1 text-gray-600">Message:--     {door_form.message}</h3>
           </div>
         </div>
       ))}

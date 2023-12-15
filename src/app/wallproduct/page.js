@@ -10,20 +10,17 @@ const Wall = () => {
             <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
               <div className="w-full md:w-1/4 space-y-4">
-
-                <h1 className="font-medium text-2xl">Wall Cladding</h1>
-                
-                <p>
+                <h1 className="font-medium text-2xl">Wall Cladding</h1>                
+                <h2>
                 A plus studio provides the good and unique quality of Wall cladding for the covering of a wall with materials that provide both aesthetic and functional benefits. and it is easy to install.
-                </p>
+                </h2>
               </div>
-              <div className="mx-auto w-1/2 md:w-1/3">
-                
+              <div className="mx-auto w-1/2 md:w-1/3">                
                    <Image 
             width={10000}
             height={10000}
+            priority sizes='40vw'
             className=" rounded-xl  transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/S-1 copy.jpg' alt='' />
-           
               </div>
             </div>
 
@@ -44,6 +41,7 @@ const Wall = () => {
               width={400}
               height={100}
               className='rounded-xl'
+              priority sizes='40vw'
             />
           </div>
         </div>
@@ -64,10 +62,10 @@ const Wall = () => {
                   width={400}
                   height={100}
                   className='rounded-xl'
+                  priority sizes='40vw'
                 />
               </div>
             </div>
-
           </div>
         </div>
        </div>

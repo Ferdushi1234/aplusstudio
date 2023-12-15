@@ -23,6 +23,7 @@ const Footer = () => {
                                 className={footerStyles.logo_name}
                                 width={50}
                                 height={80}
+                                priority sizes='40vw'
                             />
                         </div>
                         <div className={footerStyles[`media-icons`]}>
@@ -76,9 +77,8 @@ const Footer = () => {
                     <div className={footerStyles.bottom_text}>
                         <span className={footerStyles.copyright_text}> Copyright © 2023
                             <Link aria-label="A Plus Studio." href="/>"> A Plus Studio.</Link> All rights reserved </span>
-                        <span className={footerStyles.policy_terms}>
-                            <Link aria-label="Privacy policy" href="/">Privacy policy</Link>
-                            <Link aria-label="Terms & condition" href="/">Terms & condition</Link>
+                        <span >
+                            <h1>Privacy policy Terms & condition</h1>                            
                         </span>
                     </div>
                 </div>

@@ -67,6 +67,7 @@ const Post = ()=>{
               <input 
               value={name} 
               name="name"
+              aria-label='name'
               id="username" type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-[#d6d3d1] border border-gray-300 rounded-md  dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
               onChange={(e)=>{setName(e.target.value)}} />
             </div>
@@ -75,6 +76,7 @@ const Post = ()=>{
               <input 
               value={code} 
               name="code"
+              aria-label='code'
               id="code" type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-[#d6d3d1] border border-gray-300 rounded-md  dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
               onChange={(e)=>{setCode(e.target.value)}} />
             </div>
@@ -90,7 +92,7 @@ const Post = ()=>{
                   <div className="flex text-sm text-gray-600">
                     <label for="file-upload" className="relative cursor-pointer bg-[#fee2e2] rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
                       <span className="">Upload a file</span>
-                      <input id="file-upload" name="file-upload" type="file" className="sr-only" 
+                      <input id="file-upload" name="file-upload" aria-label='file-upload' type="file" className="sr-only" 
                        accept="image/*"
                        onChange={(e)=>setMedia(e.target.files[0])}/>
                         
@@ -111,10 +113,8 @@ const Post = ()=>{
           </div>
         </form>
       </section>
-
-
     </div>
   )
-}
+};
 
 export default Post

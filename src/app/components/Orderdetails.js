@@ -77,6 +77,7 @@ const Orderform = () => {
              <label htmlFor="custumer_name" className={styles.label}>
                     Enter your name
                     <input type="text" name="custumer_name" id="custumer_name"
+                        aria-label="custumer_name"
                         placeholder="name"
                         className={mulish.className}
                         value={user.custumer_name}
@@ -89,6 +90,7 @@ const Orderform = () => {
                 <label htmlFor="productname" className={styles.label}>
                     Enter Product name
                     <input type="text" name="productname" id="productname"
+                        aria-label="productname"
                         placeholder="product name"
                         className={mulish.className}
                         value={user.productname}
@@ -101,6 +103,7 @@ const Orderform = () => {
                 <label htmlFor="code" className={styles.label}>
                    Product Code Number
                     <input type="text" name="code" id="code"
+                        aria-label="code"
                         placeholder="Check on produt & Enter"
                         className={mulish.className}
                         value={user.code}
@@ -114,6 +117,7 @@ const Orderform = () => {
                 <label htmlFor="quantity" className={styles.label}>
                     Product Quantity
                     <input type="number" name="quantity" id="quantity"
+                        aria-label="quantity"
                         placeholder="quantity"
                         className={mulish.className}
                         value={user.quantity}
@@ -123,13 +127,12 @@ const Orderform = () => {
                     />
                 </label>
             </div>
-
             <label htmlFor="Size" className={styles.label}>
                     Wall Size
                     </label>
-            <div class="flex rounded-md shadow-sm">
-        
+            <div class="flex rounded-md shadow-sm">        
                     <input type="number" name="size" id="size"
+                        aria-label="size"
                         placeholder="Height"
                         className=' py-2 px-3 pr-11 block w-full border-gray-200 shadow-sm rounded-r-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400'
                         value={user.size}
@@ -139,6 +142,7 @@ const Orderform = () => {
                     />
                     
                     <input  type="number" name="size2" id="size2"
+                        aria-label="size2"
                         placeholder="weidth"
                         className='py-2 px-3 pr-11 block w-full border-gray-200 shadow-sm rounded-r-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400'
                         value={user.size2}
@@ -158,6 +162,7 @@ const Orderform = () => {
              <label htmlFor="colorName" className={styles.label}>
                     Colour Names
                     <input type="text" name="colorName" id="colorName"
+                        aria-label="colorName"
                         placeholder="Enter Colours name"
                         className={mulish.className}
                         value={user.colorName}
@@ -176,6 +181,7 @@ const Orderform = () => {
                 <label htmlFor="message" className={styles.label}>
                     Message
                     <textarea name="message" id="message" rows={5}
+                        aria-label="message"
                         placeholder="message about product"
                         className={mulish.className}
                         value={user.message}

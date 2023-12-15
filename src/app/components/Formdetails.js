@@ -63,6 +63,7 @@ const ContactForm = () => {
                 <label htmlFor="username" className={styles.label}>
                     Enter your name
                     <input type="text" name="username" id="username"
+                    aria-label="username"
                         placeholder="Enter your name"
                         className={mulish.className}
                         value={user.username}
@@ -76,6 +77,7 @@ const ContactForm = () => {
                 <label htmlFor="email" className={styles.label}>
                     Email
                     <input type="text" name="email" id="email"
+                    aria-label="email"
                         placeholder="Enter your email"
                         className={mulish.className}
                         value={user.email}
@@ -90,6 +92,7 @@ const ContactForm = () => {
                 <label htmlFor="phone" className={styles.label}>
                     Phone Number
                     <input type="number" name="phone" id="phone"
+                    aria-label="phone"
                         placeholder="Enter your phone"
                         className={mulish.className}
                         value={user.phone}
@@ -104,6 +107,7 @@ const ContactForm = () => {
                 <label htmlFor="address" className={styles.label}>
                     Address
                     <textarea name="address" id="address" rows={5}
+                    aria-label="address"
                         placeholder="Enter your full Address"
                         className={mulish.className}
                         value={user.address}

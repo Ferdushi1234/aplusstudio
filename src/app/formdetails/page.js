@@ -8,7 +8,7 @@ const Contact = () => {
                 <div className={styles.container}>
                     <section className={styles.contact_section}>
                         <h1>order details</h1>
-                        <h2 >We'd love to hear <span> from you </span></h2>
+                        <p >We'd love to hear <span> from you </span></p>
                         <Formdetails />
                     </section>
                 </div>

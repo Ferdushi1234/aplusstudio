@@ -5,8 +5,7 @@ const Product = () => {
   return (
 
       <div className="bg-white">
-     <div  className="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
-          <h1 className="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"></h1>
+     <div  className="py-24 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
           <div className="space-y-16">
             <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
@@ -20,6 +19,7 @@ const Product = () => {
               <Image 
             width={10000}
             height={10000}
+            priority sizes='40vw'
             className="h-64 w-96 rounded-xl shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/AP3.jpg' alt='' />
            
               </div>
@@ -40,6 +40,7 @@ const Product = () => {
           <Image 
             width={10000}
             height={10000}
+            priority sizes='40vw'
             className="h-64 w-96 rounded-xl shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/hinge.jpg' alt='' />
            
           </div>
@@ -58,6 +59,7 @@ const Product = () => {
               <Image 
             width={10000}
             height={10000}
+            priority sizes='40vw'
             className="h-64 w-96 rounded-xl shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/a21.jpg' alt='' />           
               </div>
             </div>

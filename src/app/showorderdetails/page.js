@@ -29,12 +29,12 @@ export default async function ProductsList() {
         >
           <div>
           <h1 className="mt-1 text-lg font-extrabold text-gray-900">Custumer name:--  {orderdetails.custumer_name}</h1>  
-          <h1 className=" text-lg text-gray-900">Product name:--  {orderdetails.productname}</h1>              
-          <h4 className="mb-1 text-gray-600">Code_of_Product:--  {orderdetails.code}</h4>
-          <h4 className="mb-1 text-gray-600">Quantity:--  {orderdetails.quantity}</h4>
-          <h4 className="mb-1 text-gray-600">Size:--  {orderdetails.size} X {orderdetails.size2}</h4>
-          <h4 className="mb-1 text-gray-600">Colour_name:--  {orderdetails.colorName}</h4>
-          <h4 className="mb-1 text-gray-600">Message:--     {orderdetails.message}</h4>
+          <h2 className=" text-lg text-gray-900">Product name:--  {orderdetails.productname}</h2>              
+          <h3 className="mb-1 text-gray-600">Code_of_Product:--  {orderdetails.code}</h3>
+          <h3 className="mb-1 text-gray-600">Quantity:--  {orderdetails.quantity}</h3>
+          <h3 className="mb-1 text-gray-600">Size:--  {orderdetails.size} X {orderdetails.size2}</h3>
+          <h3 className="mb-1 text-gray-600">Colour_name:--  {orderdetails.colorName}</h3>
+          <h3 className="mb-1 text-gray-600">Message:--     {orderdetails.message}</h3>
           </div>
         </div>
       ))}

@@ -29,9 +29,9 @@ export default async function ProductsList() {
         >
           <div>
           <h1 className="mt-1 text-lg font-extrabold text-gray-900">{formdetails.username}</h1>              
-          <h4 className="mb-1 text-gray-600">{formdetails.email}</h4>
-          <h4 className="mb-1 text-gray-600">{formdetails.phone}</h4>
-          <h4 className="mb-1 text-gray-600">{formdetails.address}</h4>
+          <h2 className="mb-1 text-gray-600">{formdetails.email}</h2>
+          <h2 className="mb-1 text-gray-600">{formdetails.phone}</h2>
+          <h2 className="mb-1 text-gray-600">{formdetails.address}</h2>
           </div>
         </div>
       ))}

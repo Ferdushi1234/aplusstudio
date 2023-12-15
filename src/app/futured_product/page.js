@@ -12,7 +12,6 @@ const futured_product = () => {
           className="absolute z-10 w-auto 
             min-w-full min-h-full max-w-none">
         </video>
-
         <section className="  bg-cover bg-fixed relative z-10 my-4  overflow-hidden pt-40  lg:pt-[200px] lg:pb-[90px]">       
         <div className="space-y-15">
           <div
@@ -34,11 +33,10 @@ const futured_product = () => {
           <div className="-mx-4 flex flex-wrap items-center justify-between">
           </div>
         </div>
-      </section>
-        
+      </section>      
       </section>
     </>
   )
-}
+};
 
 export default futured_product

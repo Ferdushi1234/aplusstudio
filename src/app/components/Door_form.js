@@ -87,6 +87,7 @@ const Orderform = () => {
                     Enter your name
                     <input type="text" name="custumer_name" id="custumer_name"
                         placeholder="name"
+                        aria-label="custumer_name"
                         className={mulish.className}
                         value={user.custumer_name}
                         onChange={handleChange}
@@ -99,6 +100,7 @@ const Orderform = () => {
                     Enter Product name
                     <input type="text" name="productname" id="productname"
                         placeholder="product name"
+                        aria-label="productname"
                         className={mulish.className}
                         value={user.productname}
                         onChange={handleChange}
@@ -111,6 +113,7 @@ const Orderform = () => {
                    Product Code Number
                     <input type="text" name="code" id="code"
                         placeholder="Check on produt & Enter"
+                        aria-label="code"
                         className={mulish.className}
                         value={user.code}
                         onChange={handleChange}
@@ -124,6 +127,7 @@ const Orderform = () => {
                     Product Quantity
                     <input type="number" name="quantity" id="quantity"
                         placeholder="quantity"
+                        aria-label="quantity"
                         className={mulish.className}
                         value={user.quantity}
                         onChange={handleChange}
@@ -132,7 +136,6 @@ const Orderform = () => {
                     />
                 </label>
             </div>
-
             <label htmlFor="Size" className={styles.label}>
                     Door size
                     </label>
@@ -140,6 +143,7 @@ const Orderform = () => {
         
                     <input type="number" name="size" id="size"
                         placeholder="Height"
+                        aria-label="size"
                         className=' py-2 px-3 pr-11 block w-full border-gray-200 shadow-sm rounded-r-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400'
                         value={user.size}
                         onChange={handleChange}
@@ -149,6 +153,7 @@ const Orderform = () => {
                     
                     <input  type="number" name="size2" id="size2"
                         placeholder="weidth"
+                        aria-label="size2"
                         className='py-2 px-3 pr-11 block w-full border-gray-200 shadow-sm rounded-r-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400'
                         value={user.size2}
                         onChange={handleChange}
@@ -167,7 +172,8 @@ const Orderform = () => {
              <label htmlFor="colorName" className={styles.label}>
                     Colour Names
                     <input type="text" name="colorName" id="colorName"
-                        placeholder="Colours name   "
+                        placeholder="Colours name"
+                        aria-label="colorName"
                         className={mulish.className}
                         value={user.colorName}
                         onChange={handleChange}
@@ -182,7 +188,8 @@ const Orderform = () => {
              <label htmlFor="polish" className={styles.label}>
                     Polish / vineer
                     <input type="text" name="polish" id="polish"
-                        placeholder="Matt, Glass/six side vineer   "
+                        placeholder="Matt, Glass/six side vineer"
+                        aria-label="polish"
                         className={mulish.className}
                         value={user.polish}
                         onChange={handleChange}
@@ -198,6 +205,7 @@ const Orderform = () => {
                     Hinge with size
                     <input type="text" name="hinge" id="hinge"
                         placeholder="Number of hinge with size  "
+                        aria-label="hinge"
                         className={mulish.className}
                         value={user.hinge}
                         onChange={handleChange}
@@ -213,6 +221,7 @@ const Orderform = () => {
                     Door opning
                     <input type="text" name="door_opning" id="door_opning"
                         placeholder="right / left"
+                        aria-label="door_opning"
                         className={mulish.className}
                         value={user.door_opning}
                         onChange={handleChange}
@@ -232,6 +241,7 @@ const Orderform = () => {
                     Message
                     <textarea name="message" id="message" rows={5}
                         placeholder="message about product"
+                        aria-label="message"
                         className={mulish.className}
                         value={user.message}
                         onChange={handleChange}

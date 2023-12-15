@@ -35,11 +35,12 @@ export default async function ProductsList() {
           <Image 
             width={10000}
             height={10000}
+            priority sizes='40vw'
             className="h-64 w-48 rounded-xl   shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src={t.mediaUrl}  alt='' />
             
            <div className="mt-3">
             <h1 className="font-bold text-center">{t.name}</h1>
-            <h1 className="text-lime-600 text-center">{t.code}</h1>
+            <h2 className="text-lime-600 text-center">{t.code}</h2>
             </div>
           </div>
 

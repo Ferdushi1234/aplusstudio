@@ -29,6 +29,7 @@ const Admin = () => {
                   className="object-cover object-center w-20 h-20 "
                   width={1000}
                   height={1000}
+                  priority sizes='50vw'
                 />
             
                
@@ -97,10 +98,11 @@ const Admin = () => {
             <div className="my-6 mt-auto ml-10 flex cursor-pointer">
               <div>
                 <Image alt="" className="h-12 w-12 rounded-full" src="/AP4.jpg"
-                  width={1000} height={1000} />
+                  width={1000} height={1000}
+                  priority sizes='40vw' />
               </div>
               <div className="ml-3">
-                <p className="font-medium">A Plus Studio</p>
+                <h1 className="font-medium">A Plus Studio</h1>
                 <p className="text-sm text-gray-300">A Plus Studio.</p>
               </div>
             </div>

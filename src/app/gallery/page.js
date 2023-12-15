@@ -24,8 +24,7 @@ export default async function ProductsList() {
   return (
     <>
       <div style={{marginBottom:'-6rem'}} className="bg-gradient-to-r from-violet-100 to-pink-100  py-12  px-5 p-10 lg:px-320 lg:pt-12 ">
-      <div style={{marginBottom:'-4rem'}} className=" mx-auto max-w-2xl   py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        
+      <div style={{marginBottom:'-4rem'}} className=" mx-auto max-w-2xl   py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">      
   <h1 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 text-black py-2"> Gallery </h1>
   <p className="bg-black bg-opacity-25 text-1xl mb-4 tracking-tight  text-center text-gray-900 dark:text-black"> A Plus Studio has completed some project. you can see in our gallery section. thank you from A Plus Studio. </p>
   </div>
@@ -39,14 +38,13 @@ export default async function ProductsList() {
         <Image
         width={1000}
         height={1000}
+        priority sizes='40vw'
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center p-1 transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... "
           src={products.mediaUrl} />
           </Link>
-      </div>
-      
-    </div>
-    
+      </div>    
+    </div>    
     ))}
   
   </div>

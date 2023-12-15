@@ -1,5 +1,4 @@
 "use client"
-import Head from 'next/head';
 import Link from 'next/link';
 import Image from "next/image";
 import { useState } from 'react';
@@ -19,6 +18,7 @@ export default function Home() {
                   className="object-cover object-center w-full h-full block"
                   width={10}
                   height={0}
+                  priority sizes='50vw'
                 />
               </Link>
               <div  className=" md:hidden">

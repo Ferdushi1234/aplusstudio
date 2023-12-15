@@ -11,8 +11,7 @@ const variants = {
 const about = () => {
     return (
         <>
-        <div className='py-24'>
-       
+        <div className='py-24'>       
             <section style={{ marginBottom: '-12rem' }} className=" flex items-center  bg-gradient-to-r from-violet-100 to-pink-100 xl:h-screen font-poppins dark:bg-gray-800 ">
                 <div className="justify-center flex-1 max-w-6xl mx-auto lg:py-6 md:px-6">
                     <div className="flex flex-wrap ">
@@ -36,9 +35,9 @@ const about = () => {
                                     className="absolute-top-20   left-0 text-[20px] lg:text-[100px] text-gray-1000 font-bold  dark:text-gray-300 opacity-40 md:block ">
                                     About Us
                                 </h1>
-                                <h1 className="pl-2 text-3x1 font-bold border-l-8 border-blue-400 md:text-5xl dark:text-black">
+                                <h2 className=" font-bold border-l-8 border-blue-400 md:text-5xl dark:text-black">
                                     <div className={Styles.writertext}>Welcome To Our Site</div>
-                                </h1>
+                                </h2>
                             </div>                           
                             <p className="mt-6 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
                                 A Plus Studio is specialized in manufacturing engineered products.
@@ -55,8 +54,7 @@ const about = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-            
+            </section>            
         </div>
         </>
     )

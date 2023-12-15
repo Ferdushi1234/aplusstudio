@@ -36,12 +36,11 @@ export default async function ProductsList({params}) {
             <Image
             width={1000}
             height={1000}
+            priority sizes='40vw'
             className="h-auto max-w-full  rounded-lg " src={products.mediaUrl} alt='' />
           </div>
         </div>
-   
     </div>
-
     </>
   )
 }

@@ -5,7 +5,6 @@ const NotFound = () => {
   return (
     <div style={{marginBottom:'-6rem'}}>
     <section>
-
 <div className="bg-[#404040] text-white">
     <div className="flex h-screen items-center">
         <div className="m-auto text-center">

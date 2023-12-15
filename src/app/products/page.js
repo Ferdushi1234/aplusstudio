@@ -24,8 +24,7 @@ export default async function ProductsList() {
     <>
     <div style={{marginBottom:'-14rem'}} className="bg-gradient-to-r from-violet-100 to-pink-100  py-24 mx-auto    ">
     <h1 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 text-black py-2"> Products </h1>
-    <p className="text-1xl mb-9 tracking-tight text-center text-gray-900 "> A Plus Studio makes deffrent type of Doors and Wall Cladding. You can see and if you want to order then Order now from A Plus Studio. </p>
-  
+    <h2 className="text-1xl mb-9 tracking-tight text-center text-gray-900 "> A Plus Studio makes deffrent type of Doors and Wall Cladding. You can see and if you want to order then Order now from A Plus Studio. </h2>
   </div>
     <div style={{marginBottom:'-6rem'}} className="py-24 w-screen bg-gradient-to-r from-violet-100 to-pink-100  flex items-center justify-center flex-wrap">
       {products && products.map((products) => (
@@ -38,6 +37,7 @@ export default async function ProductsList() {
             <Image 
             width={10000}
             height={10000}
+            priority sizes='40vw'
             className="h-80 w-64 rounded-xl  p-2 shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src={products.mediaUrl} alt='' />
             
             </Link>
