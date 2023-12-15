@@ -62,6 +62,6 @@ const Services = () => {
 </main>
     </>
   )
-}
+};
 
 export default Services
