@@ -26,8 +26,8 @@ const Recentproject = () => {
 <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
     <div className="relative  overflow-hidden  rounded-lg   ">
     <Image 
-        width={10000}
-        height={10000}
+        width={1000}
+        height={1000}
         priority sizes='40vw'
         className="h-64 w-80 rounded-lg " src="/AP6.jpg" alt=""/>
       <div
@@ -36,8 +36,8 @@ const Recentproject = () => {
     </div>
     <div className="relative max-w-xs overflow-hidden bg-cover rounded-lg  bg-no-repeat">
     <Image 
-        width={10000}
-        height={10000}
+        width={1000}
+        height={1000}
         priority sizes='40vw'
         className="h-64 w-80 rounded-lg " src="/02.jpg" alt=""/>
       <div
@@ -46,8 +46,8 @@ const Recentproject = () => {
     </div>
     <div className="relative max-w-xs overflow-hidden bg-cover rounded-lg  bg-no-repeat">
     <Image 
-        width={10000}
-        height={10000}
+        width={1000}
+        height={1000}
         priority sizes='40vw'
         className="h-64 w-80 rounded-lg " src="/AP7.jpg" alt=""/>
       <div
@@ -56,8 +56,8 @@ const Recentproject = () => {
     </div>
     <div className="relative max-w-xs overflow-hidden bg-cover rounded-lg  bg-no-repeat">
     <Image 
-        width={10000}
-        height={10000}
+        width={1000}
+        height={1000}
         priority sizes='40vw'
         className="h-64 w-80 rounded-lg " src="/a21.jpg" alt=""/>
       <div
