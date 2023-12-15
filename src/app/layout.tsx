@@ -8,7 +8,7 @@ import localFont from 'next/font/local'
 const myFont = localFont({ src: "./fonts/bodoni-mt-1.ttf" })
 
 export const metadata: Metadata = {
-  title: 'A Plus Studio: Design Excellence',
+  title: 'APlusStudio/Home',
   description: 'Discover unparalleled design mastery at A Plus Studio – where innovation meets sophistication. Elevate your space with bespoke interiors that redefine luxury and reflect your unique style.',
   manifest:'manifest.webmanifest',
 }

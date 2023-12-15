@@ -6,7 +6,7 @@ import Service from '@/app/service/page.js'
 import Wallsection from '@/app/components/Wallsection.js'
 import Futured_product from './futured_product/page.js'
 export const metadata = {
-  title: 'A Plus Studio: Design Excellence',
+  title: 'APlusStudio/Home',
   description: 'Discover unparalleled design mastery at A Plus Studio – where innovation meets sophistication. Elevate your space with bespoke interiors that redefine luxury and reflect your unique style.',
   manifest:'manifest.webmanifest',
   metadataBase: new URL('https://aplusstudio.in'),
