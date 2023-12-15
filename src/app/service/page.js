@@ -14,9 +14,9 @@ const Services = () => {
             <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
               <div className="w-full md:w-1/4 space-y-4">
-                <h1 className="font-medium text-2xl">Wall Cladding</h1>
-                <h2 > A plus studio provides the good and unique quality of wall cladding for the covering of a wall with materials that provide both aesthetic and functional benefits. 
-                </h2>
+                <h2 className="font-medium text-2xl">Wall Cladding</h2>
+                <h3 > A plus studio provides the good and unique quality of wall cladding for the covering of a wall with materials that provide both aesthetic and functional benefits. 
+                </h3>
               </div>
               <div className="mx-auto w-1/2 md:w-1/3">
                 <Image
@@ -35,10 +35,10 @@ const Services = () => {
         <div
           className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center md:flex-row-reverse">
           <div className="w-full md:w-1/4 space-y-4">
-            <h1 style={{ marginLeft: 30, marginRight: 30 }} className="font-medium text-2xl">High Quality Doores</h1>
-            <h2 style={{ marginLeft: 30, marginRight: 30 }}>
+            <h2 style={{ marginLeft: 30, marginRight: 30 }} className="font-medium text-2xl">High Quality Doores</h2>
+            <h3 style={{ marginLeft: 30, marginRight: 30 }}>
                   A plus studio provides the high & good quality of doores. with concealed hinge quality of hinges  for your interior swinging doors. with movement, Adjustability and functionality.
-                </h2>
+                </h3>
           </div>
           <div className="mx-auto w-1/2 md:w-1/3">
             <Image

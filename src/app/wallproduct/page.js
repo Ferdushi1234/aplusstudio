@@ -10,10 +10,10 @@ const Wall = () => {
             <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
               <div className="w-full md:w-1/4 space-y-4">
-                <h1 className="font-medium text-2xl">Wall Cladding</h1>                
-                <h2>
+                <h2 className="font-medium text-2xl">Wall Cladding</h2>                
+                <h3>
                 A plus studio provides the good and unique quality of Wall cladding for the covering of a wall with materials that provide both aesthetic and functional benefits. and it is easy to install.
-                </h2>
+                </h3>
               </div>
               <div className="mx-auto w-1/2 md:w-1/3">                
                    <Image 

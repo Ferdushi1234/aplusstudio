@@ -48,7 +48,7 @@ export default async function ProductsList({params}) {
           </div>
         </div>
          <div className="relative z-10 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
-          <h1 className=" text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-black"> About Product</h1>
+          <h2 className=" text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-black"> About Product</h2>
       </div>
         <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-60 md:justify-center md:flex md:items-center ">
