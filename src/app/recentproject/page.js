@@ -28,7 +28,6 @@ const Recentproject = () => {
     <Image 
         width={1000}
         height={1000}
-        priority sizes='40vw'
         className="h-64 w-80 rounded-lg " src="/AP6.jpg" alt=""/>
       <div
         className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-30 "></div>
@@ -38,7 +37,6 @@ const Recentproject = () => {
     <Image 
         width={1000}
         height={1000}
-        priority sizes='40vw'
         className="h-64 w-80 rounded-lg " src="/02.jpg" alt=""/>
       <div
         className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-30 "></div>
@@ -48,7 +46,6 @@ const Recentproject = () => {
     <Image 
         width={1000}
         height={1000}
-        priority sizes='40vw'
         className="h-64 w-80 rounded-lg " src="/AP7.jpg" alt=""/>
       <div
         className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-30 "></div>
@@ -58,7 +55,6 @@ const Recentproject = () => {
     <Image 
         width={1000}
         height={1000}
-        priority sizes='40vw'
         className="h-64 w-80 rounded-lg " src="/a21.jpg" alt=""/>
       <div
         className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-30 "></div>
