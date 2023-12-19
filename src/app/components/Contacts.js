@@ -65,7 +65,7 @@ const Contact = () => {
           </div>       
                   <button type="submit" value="Send" className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
                   Send message</button>
-          <h1 style={{color:"green"}}>{done && "Thanks htmlFor Contacting US"}</h1>
+          <h2 style={{color:"green"}}>{done && "Thanks htmlFor Contacting US"}</h2>
       </form>
           <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
             <div className="flex flex-wrap">
