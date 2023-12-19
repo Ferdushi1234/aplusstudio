@@ -78,7 +78,7 @@ const Footer = () => {
                         <span className={footerStyles.copyright_text}> Copyright © 2023
                             <Link aria-label="A Plus Studio." href="/>"> A Plus Studio.</Link> All rights reserved </span>
                         <span >
-                            <h1>Privacy policy Terms & condition</h1>                            
+                            <h2>Privacy policy Terms & condition</h2>                            
                         </span>
                     </div>
                 </div>
