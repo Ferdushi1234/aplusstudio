@@ -6,7 +6,7 @@ const Productguide = () => {
         <>
             <section style={{ marginTop: '-2rem', marginBottom: '-6rem', height:'35rem'}} className=" bg-[url('/APS31.avif')]  relative z-10 my-4 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
                 <div className="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
-                    <h1 className=" pt-2 relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 text-white">Order Guide</h1>
+                    <h2 className=" pt-2 relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 text-white">Order Guide</h2>
                 </div>
                 <div className="space-y-16">
                     <div

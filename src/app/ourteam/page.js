@@ -40,9 +40,9 @@ const Ourteam = () => {
 
                             <div className="text-center mt-6">
                    
-                                <h1 className="text-gray-900 text-xl font-bold mb-1">
+                                <h2 className="text-gray-900 text-xl font-bold mb-1">
                                 Aamir Ahmed
-                                </h1>
+                                </h2>
                          
                                 <div className="text-gray-700 font-light mb-2">
                                     <p>CEO & Founder</p>                                    
