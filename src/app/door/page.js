@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import doorstyles from "./door.module.css"
-import Recentproject from '@/app/recentproject/page' 
+ 
 export const metadata = {
   title: 'Doors',
   description: 'Doors of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
@@ -41,7 +41,6 @@ const Door = () => {
     </svg>
 </div>
       </main>
-      <Recentproject />
     </>
   )
 }

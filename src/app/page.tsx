@@ -5,6 +5,7 @@ import Herosection  from './components/Herosection'
 import Service from '@/app/service/page.js'
 import Wallsection from '@/app/components/Wallsection.js'
 import Futured_product from './futured_product/page.js'
+import Recentproject from '@/app/recentproject/page.js'
 import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ function page() {
     <Futured_product/>
     <Wallsection />
     <Door />
+    <Recentproject />
     <Contacts />
     </>
   );

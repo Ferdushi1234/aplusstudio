@@ -31,7 +31,7 @@ export default async function ProductsList({params}) {
     <>
     <div className="bg-white ">
     <div style={{marginBottom:'-14rem'}} className=" py-24 mx-auto max-w-2xl px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-    <h1 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 text-black py-2"> PRODUCT VIEW/ORDER </h1>
+    <h2 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 text-black py-2"> PRODUCT VIEW/ORDER </h2>
     <h2 className="text-1xl mb-9  text-center text-gray-900"> A Plus Studio has completed some project. you can see in our gallery section. thank you from A Plus Studio. </h2>
     <div  class="items-center justify-center bg-opacity-40 relative  bg-black text-white ">
        <h3 className="text-2xl text-center">We provides good and perfect products for you. </h3>
