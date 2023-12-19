@@ -1,7 +1,10 @@
 import React from 'react'
 import Image from "next/image"
 import Link from 'next/link'
-
+export const metadata = {
+  title: 'Futured Products',
+  description: 'Futured products of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
+}
 const futured_product = () => {
   return (
     <>

@@ -1,5 +1,11 @@
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/image';
+
+ 
+export const metadata = {
+  title: 'Wallproduct | A Plus Studio',
+  description: 'Wall product of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
+}
 const Wall = () => {
   return (
 

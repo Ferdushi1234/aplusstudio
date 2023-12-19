@@ -5,8 +5,8 @@ import Aboutus from '@/app/components/Aboutus'
 
 
 export const metadata = {
-  title: 'About',
-  description: 'About of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
+  title: 'About Us',
+  description: 'About Us of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
   manifest:'manifest.webmanifest',
   metadataBase: new URL('https://aplusstudio.in'),
   generator: 'aplusstudio',

@@ -2,7 +2,10 @@ import React from 'react'
 import Product from '@/app/components/Doorproduct'
 import Productguide from '@/app/components/Productguide'
 import Link from 'next/link'
-
+export const metadata = {
+  title: 'Door',
+  description: 'Door product of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
+}
 const Doorproduct = () => {
   return (
     <div >

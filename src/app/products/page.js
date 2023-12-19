@@ -1,7 +1,11 @@
 import Link from "next/link";
 import baseUrl from '@/utils/baseUrl'
 import Image from 'next/image'
-
+ 
+export const metadata= {
+  title: 'Products | A Plus Studio',
+  description: 'Products of  of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
+}
 const getProducts = async () => {
   try {
     const NextResponse = await fetch(`${baseUrl}/api/products`,{
