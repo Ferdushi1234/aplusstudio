@@ -12,7 +12,7 @@ const Door = () => {
     <main className={doorstyles.main_section}>
       <section className="  relative z-10 pt-20  lg:pt-[120px] lg:pb-[90px]">
         <div className="py-12  md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
-          <h1 className=" pt-24 relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900  text-white">High Quality door</h1>
+          <h2 className=" pt-24 relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900  text-white">High Quality door</h2>
         </div>
         <div className="space-y-16">
           <div

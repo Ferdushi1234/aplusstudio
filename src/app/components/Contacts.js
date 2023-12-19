@@ -48,7 +48,7 @@ const Contact = () => {
       <div
         className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
         <div className="flex flex-wrap">       
-      <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-black">Contact Us</h1>
+      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-black">Contact Us</h2>
       <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">If you have any query then you can contect with our team. thank you from A Plus studio.If you have any query then you can contect with our team.</p>   
      <form  ref={form}  onSubmit={sendEmail} action="#" className="space-y-8">
          <div>
