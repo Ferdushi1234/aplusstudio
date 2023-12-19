@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 export const metadata = {
     title: 'OurTeam',
+    description: ' Team of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
   }
   
 const Ourteam = () => {

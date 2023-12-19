@@ -4,6 +4,7 @@ import baseUrl from '@/utils/baseUrl'
 import Image from 'next/image'
 export const metadata = {
   title: 'Gallery',
+  description: 'Gallery of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
 }
 
 

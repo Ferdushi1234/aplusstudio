@@ -5,6 +5,7 @@ import heroStyles from "@/app/styles/herosection.module.css"
 
 export const metadata = {
   title: 'Service',
+  description: 'Service of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
 }
 
  
