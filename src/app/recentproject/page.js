@@ -11,7 +11,7 @@ const Recentproject = () => {
             <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
               <div className="w-full md:w-1/4 space-y-4">
-              <h1 className="text-4xl mb-8 tracking-tight font-extrabold text-gray-900 dark:text-black">OUR RECENT PROJECTS</h1>
+              <h2 className="text-4xl mb-8 tracking-tight font-extrabold text-gray-900 dark:text-black">OUR RECENT PROJECTS</h2>
                 <h2>
                 Take a look at our recent projects to understand how we can help you.
                 </h2>
