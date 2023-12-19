@@ -11,7 +11,6 @@ const Wall = () => {
 
       <div className="bg-white">
      <div  className="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
-          <h1 className="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"></h1>
           <div className="space-y-16">
             <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
