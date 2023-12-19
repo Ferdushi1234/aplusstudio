@@ -28,7 +28,7 @@ const Footer = () => {
                         </div>
                         <div className={footerStyles[`media-icons`]}>
                             <Link aria-label="Home" href="/"><i > <FaFacebookF /> </i></Link>
-                            <Link aria-label="Twitter" href="https://twitter.com/aplusstudio_in"><i > <FaTwitter /> </i> </Link>
+                            <Link aria-label="Twitter" href="https://twitter.com/aplusstudio_in "  target="_blank"><i > <FaTwitter /> </i> </Link>
                             <Link aria-label="Instagram" href="https://www.instagram.com/aplusstudio.in/" target="_blank"><i > <FaInstagram />  </i></Link>
                             <Link aria-label="Linkedin" href="https://www.linkedin.com/in/a-plus-studio-688644295?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B82KwpL9pR%2Fa8K2n380TcRA%3D%3D"><i > <FaLinkedinIn /> </i></Link>
                             <Link aria-label="Youtube" href="/"><i > <FaYoutube />  </i></Link>
