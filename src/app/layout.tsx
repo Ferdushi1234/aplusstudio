@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     default: 'A Plus Studio', // a default is required when creating a template
   },
   manifest:'manifest.webmanifest',
-  description: 'Discover  unequaled  design mastery at A Plus Studio – where  invention meets  complication. Elevate your space with bespoke innards that  review luxury and reflect your unique style.',
+  description: 'Discover  unequaled  design mastery at A Plus Studio – where invention meets complication. Elevate your space with bespoke innards that  review luxury and reflect your unique style.',
   metadataBase: new URL('https://aplusstudio.in'),
   generator: 'aplusstudio',
   applicationName: 'aplusstudio',
