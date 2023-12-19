@@ -4,7 +4,7 @@ import  styles  from './service.module.css'
 import heroStyles from "@/app/styles/herosection.module.css"
 
 export const metadata = {
-  title: 'About',
+  title: 'Service',
 }
 
  

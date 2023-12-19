@@ -1,8 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
-
 import baseUrl from '@/utils/baseUrl'
 import Image from 'next/image'
+export const metadata = {
+  title: 'Gallery',
+}
+
+
 const getProducts = async () => {
   try {
     const NextResponse = await fetch(`${baseUrl}/api/products`,{
