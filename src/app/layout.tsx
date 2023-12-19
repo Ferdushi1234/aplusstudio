@@ -41,15 +41,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'A Plus Studio',
-    description: 'A plus studio | it is the manufecturer production company and it provide the Doore with high quality and wall cladding.',
-    siteId: 'https://twitter.com/aplusstudio_in',
-    creator: 'A Plus Studio',
-    creatorId: 'https://twitter.com/aplusstudio_in',
-    images: ['https://twitter.com/aplusstudio_in/header_photo'],
-  },
   verification: {
     google: 'google',
     yandex: 'yandex',
