@@ -73,8 +73,11 @@ const about = () => {
                 <p className="text-body-color mb-12 text-base text-justify" style={{ marginBottom: '-9.2rem' }}>
                   The organizations segments include sustainability, workforce relations, and business intelligence with honesty.
                   Our innovative, self designed and fabricated products improve the quality of life with a new passion of style.
-                </p>
-               
+                  and It is specialized in manufacturing engineered product, design and installation of residential Doores, Wall Cladding
+                  spiders and stair construction for Residence, Commercial, Industrial, Health Care,
+                  Educational, Governmental work and so on as we believe in creating difference,
+                  by our innovative ideas which then converted into design to make a new product.
+                </p>             
               </div>
             </div>
           </div>

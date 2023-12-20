@@ -40,12 +40,13 @@ const about = () => {
                                 </h2>
                             </div>                           
                             <p className="mt-6 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
-                                A Plus Studio is specialized in manufacturing engineered products.
-                                and It is specialized in manufacturing engineered products, design and installation of residential main gates, railings, shower Cabins,
-                                spiders and stair construction for Residence, Commercial, Industrial,
-                                Educational, Governmental work and so on as we believe in creating difference,
-                                by our innovative ideas which then converted into design to make a new product.
-                                Our motto is to provide a complete high quality finished product for your dream project’s architectural division.
+                            Welcome to A Plus Studio, where innovation meets passion! I'm Aamir Ahmed, the CEO and Founder of this incredible journey that began with a vision to transform industries and empower individuals. 
+                            Driven by a relentless pursuit of excellence, I founded A Plus Studio with the belief that a plus studio provide the some products for our clients such as 
+                            deffrent types of wall cladding with deffrent colours and uniqueness, and a plus studio provide the high quality of Doors with high quality of concealed hinges
+                            . Our journey started 2010 and has since been a thrilling adventure of overcoming challenges and celebrating successes. 
+                            As the CEO, I am dedicated to steering our team toward groundbreaking solutions that redefine the status quo. At A Plus Studio, we blend cutting-edge technology with unwavering dedication to deliver products/services that resonate with our customers. Our commitment extends beyond mere transactions; it's about creating meaningful connections and making a positive impact on the world.
+                            Innovation is at the heart of everything we do. We constantly strive to push boundaries, challenge norms, and foster a culture that encourages creativity and collaboration. Join us on this exciting voyage as we continue to shape the future and inspire change. 
+                            Thank you for being a part of the A Plus Studio community. Together, let's build a future where possibilities are limitless!
                             </p>
                             <Link aria-label="about" href="/about/1"
                                 className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
