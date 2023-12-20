@@ -62,6 +62,11 @@ const about = () => {
                 </h2>
               
                 <p className="text-body-color mb-8 text-base text-justify">
+                Welcome to A Plus Studio, where craftsmanship meets innovation! As the proud CEO and founder, I am excited to share our story. Established with a commitment to redefine spaces, we specialize in exquisite door and wall cladding solutions that elevate aesthetics and functionality.
+                At A Plus Studio, we understand that doors and wall cladding are not just elements; they are statements that define the character of a space. Our journey began with a vision to seamlessly blend timeless design with state-of-the-art technology. From elegant entryways to sophisticated wall coverings, we offer a comprehensive range that caters to diverse styles and preferences.
+                What sets us apart is our unwavering dedication to quality and precision. Every door and wall cladding is a testament to our skilled artisans' meticulous craftsmanship and attention to detail. We source the finest materials, ensuring durability and sustainability in every product we deliver.
+                In a world where first impressions matter, we take pride in being the go-to choice for architects, designers, and homeowners seeking superior door and wall cladding solutions. Our team is driven by a passion for transforming spaces and creating lasting impressions.
+                Whether you're envisioning a modern, sleek look or a timeless, classic feel, A Plus Studio is your partner in turning visions into reality. Join us as we open doors to possibilities and clad walls with elegance, making every space uniquely yours.
                   It is specialized in manufacturing engineered products, design and installation of residential main gates, railings, shower Cabins,
                   spiders and stair construction for Residence, Commercial, Industrial, Health Care,
                   Educational, Governmental work and so on as we believe in creating difference,
