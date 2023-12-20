@@ -45,8 +45,8 @@ export default async function ProductsList({params}) {
             <Image
             width={1500}
             height={500}
-            priority sizes='40vw'
-            className=" m-auto  rounded-lg " src={products.mediaUrl} alt='' />
+            priority sizes='60vw'
+            className=" m-auto  rounded-lg " src={products.mediaUrl} alt='product' />
              <h3 className="text-center mt-1 text-lg font-medium text-gray-900">{products.name}</h3>
         <p className="text-center mt-0 text-sm font-medium text-gray-900">Code: {products.code}</p>
           </div>

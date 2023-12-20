@@ -4,6 +4,10 @@ import { MdEmail, MdVoiceChat, MdForum } from "react-icons/md";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
 import styles from "@/app/contacts/contact.module.css";
+export const metadata = {
+  title: 'Contact Us',
+  description: 'Contects of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
+}
 
 const Contact = () => {
 

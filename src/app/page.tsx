@@ -1,5 +1,5 @@
 import React from 'react' 
-import Contacts from "../app/contacts/page.js"
+import Contacts from "../app/components/Contacts"
 import Door from "../app/door/page"
 import Herosection  from './components/Herosection'
 import Service from '@/app/service/page.js'
