@@ -98,6 +98,7 @@ export default async function ProductsList({params}) {
                 <h3 className="font-medium text-2xl">Better and Good Quality Product</h3>
                 <p style={{ marginLeft: 20, marginRight: 20 }}>
                 A Plus Studio provides high-quality products as per your requirements. such as your choice of color and your size of products or quantity.
+                Our products embody the essence of excellence and goodness. Crafted with precision and care, each item reflects our commitment to quality, sustainability, and customer satisfaction. From design to production, we prioritize goodness in every aspect, ensuring our products enrich lives and contribute positively to the world around us.
                 </p>
               </div>
         <div className="mx-auto w-1/2 md:w-1/3">

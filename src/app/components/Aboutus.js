@@ -11,15 +11,15 @@ const variants = {
 const about = () => {
     return (
         <>
-        <div className='py-24'>       
-            <section style={{ marginBottom: '-12rem' }} className=" flex items-center  bg-gradient-to-r from-violet-100 to-pink-100 xl:h-screen font-poppins dark:bg-gray-800 ">
+        <div style={{ marginBottom: '-6rem' }} className='py-56 bg-gradient-to-r from-violet-100 to-pink-100'>       
+            <section  className=" flex items-center  bg-gradient-to-r from-violet-100 to-pink-100 xl:h-screen font-poppins dark:bg-gray-800 ">
                 <div className="justify-center flex-1 max-w-6xl mx-auto lg:py-6 md:px-6">
                     <div className="flex flex-wrap ">
                         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                             <div className="relative z-10 my-4">
                                 <Image src="/CEO.jpg" alt="CEO"
                                     width={1000} height={1000}
-                                    priority sizes='50vw'
+                                    priority sizes='60vw'
                                     className="relative z-40 object-cover w-full h-100 lg:rounded-tr-[80px] lg:rounded-bl-[80px] rounded" />
                                 <div
                                     className="absolute z-10 hidden w-full h-full bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 rounded-bl-[80px] rounded -bottom-6 right-6 lg:block">
@@ -39,7 +39,7 @@ const about = () => {
                                     <div className={Styles.writertext}>Welcome To Our Site</div>
                                 </h2>
                             </div>                           
-                            <p className="mt-6 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
+                            <p className=" text-base leading-7 text-gray-500 dark:text-gray-400">
                             Welcome to A Plus Studio, where innovation meets passion! I'm Aamir Ahmed, the CEO and Founder of this incredible journey that began with a vision to transform industries and empower individuals. 
                             Driven by a relentless pursuit of excellence, I founded A Plus Studio with the belief that a plus studio provide the some products for our clients such as 
                             deffrent types of wall cladding with deffrent colours and uniqueness, and a plus studio provide the high quality of Doors with high quality of concealed hinges
