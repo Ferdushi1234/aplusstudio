@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     default: 'A Plus Studio', // a default is required when creating a template
   },
   description: 'Discover  unequaled  design mastery at A Plus Studio – where invention meets complication. Elevate your space with bespoke innards that  review luxury and reflect your unique style. aplusstudio noida',
+  
   metadataBase: new URL('https://aplusstudio.in'),
   generator: 'a plus studio',
   applicationName: 'a plus studio',
@@ -42,9 +43,7 @@ export const metadata: Metadata = {
     ],
   },
   verification: {
-    google: 'google',
-    yandex: 'yandex',
-    yahoo: 'yahoo',
+    google: 'bdLbDU8AMC-KYqW8F2RbsdY_MsKb8TWpxKg9QwUPWsw',
     other: {
       me: ['my-email', 'my-link'],
     },
@@ -58,8 +57,16 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    images: '/og-image.png',
+    title:'A Plus Studio',
+    description: ' a plus studio, Discover  unequaled  design mastery at A Plus Studio – where invention meets complication. Elevate your space with bespoke innards that  review luxury and reflect your unique style. aplusstudio noida',
+  
+    images: [{
+      url: '/AP4.jpg',
+      width: 400,
+      height: 300,
+    }]
   },
+  
 
 
 }
