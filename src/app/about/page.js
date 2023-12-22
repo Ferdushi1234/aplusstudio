@@ -12,7 +12,7 @@ export const metadata = {
   generator: 'aplusstudio',
   applicationName: 'aplusstudio',
   referrer: 'origin-when-cross-origin',
-  keywords: ['Next.js', 'React', 'JavaScript'],
+  keywords: ['a plus studio', 'A plus studio', 'doors','doores', 'wallcladding', 'wall cladding','aplusstudio', 'aplusstudio noida', 'a plus studio noida','aplusstudio sector83','aplusstudio noida sector83','doors interior doors','door hinges','door design','concealed hinge','swinging door hinges','door','door swinging','aplusstudio india','wall cladding design','interior wall cladding','interior','pvc wall cladding','metal wall cladding','door mat','wooden door'],
   authors: [{ name: 'aplusstudio', url:'https://aplusstudio.in' }, { name: 'gulfam saifi', url: 'https://gulfam.in' }],
   creator: 'gulfam saifi',
   publisher: 'gulfam saifi',
@@ -25,21 +25,8 @@ export const metadata = {
     address: 'noida sector-83 A-Block 218-219 pin-201305',
     telephone: '9873250016',
   },
-  robots: {
-    noindex: true,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      noindex: true,
-      nofollow: true,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
   icons: {
-    icon: [{ url: '/icon.png' }, new URL('/icon.png', 'https://example.com')],
+    icon: [{ url: '/icon.png' }, new URL('/icon.png', 'https://aplusstudio.in')],
     shortcut: ['/shortcut-icon.png'],
     apple: [
       { url: '/apple-icon.png' },
