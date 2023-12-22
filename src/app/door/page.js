@@ -1,11 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import doorstyles from "./door.module.css"
- 
-export const metadata = {
-  title: 'Doors',
-  description: 'Doors of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
-}
+import Recentproject from '@/app/recentproject/page' 
+
 const Door = () => {
   return (
     <> 
@@ -41,6 +38,7 @@ const Door = () => {
     </svg>
 </div>
       </main>
+      <Recentproject />
     </>
   )
 }
