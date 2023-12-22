@@ -21,7 +21,7 @@ const clip = () => {
         </div>
         <div style={{marginTop:'9.5rem'}} className="relative z-10 my-4 video-content space-y-2">
         <div className={myFont.className}>
-          <h1 className="max-w-2xl text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white  animate-pulse bg-gradient-to-r from-pink-500 via-green-500 to-violet-500 bg-clip-text text-transparent">APS Wall Cladding and Doors</h1>
+          <h1 className="max-w-2xl text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl  animate-pulse bg-gradient-to-r from-pink-500 via-green-500 to-violet-500 bg-clip-text text-transparent">APS Wall Cladding and Doors</h1>
           </div>
           <h2 className=" bg-black bg-opacity-25 p-2 max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400" > A plus studio is specialized in manufacturing engineered products. It is specialized in manufacturing of Doors and Wall-Cladding.
           </h2>
