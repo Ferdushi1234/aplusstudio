@@ -9,6 +9,7 @@ import Recentproject from '@/app/recentproject/page.js'
 import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
+  manifest:'manifest.webmanifest',
   title: 'Home | A Plus Studio',
   description: 'A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
 }
