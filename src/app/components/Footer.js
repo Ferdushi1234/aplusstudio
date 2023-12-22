@@ -63,7 +63,7 @@ const Footer = () => {
                             <li className={footerStyles.link_name}>products</li>
                             <li><a href="/wallcladding">Wall Cladding</a></li>
                             <li><a href="/door">Door</a></li>
-                            <li><a href="gallery">Photography</a></li>
+                            <li><a href="/gallery">Photography</a></li>
                             <li><a href="/gallery">Photoshop</a></li>
                         </ul>
                         <ul className={`${footerStyles.box} ${footerStyles['input-box']}`}>
