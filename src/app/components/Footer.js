@@ -76,7 +76,7 @@ const Footer = () => {
                 <div className={footerStyles['bottom-details']}>
                     <div className={footerStyles.bottom_text}>
                         <span className={footerStyles.copyright_text}> Copyright © 2023
-                            <Link aria-label="A Plus Studio." href="/>"> A Plus Studio.</Link> All rights reserved </span>
+                            <Link aria-label="A Plus Studio." href="/>"> A Plus Studio Noida.</Link> All rights reserved </span>
                         <span >
                             <h2>Privacy policy Terms & condition</h2>                            
                         </span>
