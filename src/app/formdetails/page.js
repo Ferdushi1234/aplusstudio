@@ -7,7 +7,7 @@ const Contact = () => {
             <div style={{marginBottom: '-6rem'}} class="bg-cover bg-center bg-[url('/APS31.avif')] bg-fixed">
                 <div className={styles.container}>
                     <section className={styles.contact_section}>
-                        <h2>order details</h2>
+                        <h2 className='text-4xl text-white'>order details</h2>
                         <p >We'd love to hear <span> from you </span></p>
                         <Formdetails />
                     </section>
