@@ -10,7 +10,7 @@ const Door = () => {
   return (
     <> 
     <main className={doorstyles.main_section}>
-      <section className="  relative z-10 pt-20  lg:pt-[120px] ">
+      <section className="  relative z-10 pt-20  lg:pt-[120px] lg:pb-[80px]">
         <div className="py-12  md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
           <h1 className=" pt-24 relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900  text-white">High Quality door</h1>
         </div>
@@ -34,6 +34,7 @@ const Door = () => {
           </div>
         </div>
       </section>
+
       <div className={doorstyles["custom-shape-divider-bottom-1697878009"]}>
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M1200 0L0 0 598.97 114.72 1200 0z" className={doorstyles["shape-fill"]}></path>
