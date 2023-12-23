@@ -27,7 +27,7 @@ const Footer = () => {
                             />
                         </div>
                         <div className={footerStyles[`media-icons`]}>
-                            <Link aria-label="Home" href="https://www.linkedin.com/in/a-plus-studio-688644295?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B82KwpL9pR%2Fa8K2n380TcRA%3D%3D"><i > <FaFacebookF /> </i></Link>
+                            <Link aria-label="Home" href="/"><i > <FaFacebookF /> </i></Link>
                             <Link aria-label="Twitter" href="https://www.instagram.com/aplusstudio.in/"  target="_blank"><i > <FaTwitter /> </i> </Link>
                             <Link aria-label="Instagram" href="https://www.instagram.com/aplusstudio.in/" target="_blank"><i > <FaInstagram />  </i></Link>
                             <Link aria-label="Linkedin" href="https://www.linkedin.com/in/a-plus-studio-688644295?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B82KwpL9pR%2Fa8K2n380TcRA%3D%3D"><i > <FaLinkedinIn /> </i></Link>
@@ -37,34 +37,34 @@ const Footer = () => {
                     <div className={footerStyles['link-boxes']}>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Company</li>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/contacts">Contact us</a></li>
-                            <li><a href="/about">About us</a></li>
-                            <li><a href="/gallery">Gallery</a></li>
-                            <li><a href="/service">Services</a></li>
-                            <li><a href="/ourteam">OurTeam</a></li>
-                            <li><a href="/">Get started</a></li>
+                            <li><Link href="/">Home</Link></li>
+                            <li><Link href="/contacts">Contact us</Link></li>
+                            <li><Link href="/about">About us</Link></li>
+                            <li><Link href="/gallery">Gallery</Link></li>
+                            <li><Link href="/service">Services</Link></li>
+                            <li><Link href="/ourteam">OurTeam</Link></li>
+                            <li><Link href="/">Get started</Link></li>
                         </ul>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Services</li>
-                            <li><a href="/gallery">Interior Design</a></li>
-                            <li><a href="/door">Door</a></li>
-                            <li><a href="/">Designing</a></li>
-                            <li><a href="/wallcladding">Wall Cladding</a></li>
+                            <li><Link href="/gallery">Interior Design</Link></li>
+                            <li><Link href="/door/1">Door</Link></li>
+                            <li><Link href="/">Designing</Link></li>
+                            <li><Link href="/wallcladding">Wall Cladding</Link></li>
                         </ul>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Account</li>
-                            <li><a href="/">Profile</a></li>
-                            <li><a href="/">My account</a></li>
-                            <li><a href="/">Prefrences</a></li>
-                            <li><a href="/products">Purchase</a></li>
+                            <li><Link href="/">Profile</Link></li>
+                            <li><Link href="/">My account</Link></li>
+                            <li><Link href="/">Prefrences</Link></li>
+                            <li><Link href="/products">Purchase</Link></li>
                         </ul>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>products</li>
-                            <li><a href="/wallcladding">Wall Cladding</a></li>
-                            <li><a href="/door">Door</a></li>
-                            <li><a href="/gallery">Photography</a></li>
-                            <li><a href="/gallery">Photoshop</a></li>
+                            <li><Link href="/wallcladding">Wall Cladding</Link></li>
+                            <li><Link href="/door/1">Door</Link></li>
+                            <li><Link href="/gallery">Photography</Link></li>
+                            <li><Link href="/gallery">Photoshop</Link></li>
                         </ul>
                         <ul className={`${footerStyles.box} ${footerStyles['input-box']}`}>
                             <li className={footerStyles.link_name}>Subscribe</li>

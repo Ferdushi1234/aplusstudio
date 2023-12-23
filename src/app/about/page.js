@@ -5,7 +5,7 @@ import Aboutus from '@/app/components/Aboutus'
 
 
 export const metadata = {
-  title: 'About Us',
+  title: 'About',
   description: 'About Us of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
   
   icons: {
