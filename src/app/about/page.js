@@ -30,9 +30,9 @@ export const metadata = {
   },
   openGraph: {
     title:'A Plus Studio',
-    description: ' a plus studio, Discover  unequaled  design mastery at A Plus Studio – where invention meets complication. Elevate your space with bespoke innards that  review luxury and reflect your unique style. aplusstudio noida',
+    description: ' a plus studio of about, Discover  unequaled  design mastery at A Plus Studio – where invention meets complication. Elevate your space with bespoke innards that  review luxury and reflect your unique style. aplusstudio noida',
     images: [{
-      url: '/AP4.jpg',
+      url: '/CEO.jpg',
       width: 400,
       height: 300,
     }]
