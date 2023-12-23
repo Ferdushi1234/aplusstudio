@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     other: [
       {
         rel: 'apple-touch-icon-precomposed',
-        url: 'favicon.ico',
+        url: '/favicon.ico',
       },
     ],
   },

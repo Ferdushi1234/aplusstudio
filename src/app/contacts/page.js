@@ -8,7 +8,18 @@ export const metadata = {
     languages:{
       'en': '/en/contacts'
     }
-  }
+  },
+  openGraph: {
+    title:'A Plus Studio',
+    description: ' a plus studio, Discover  unequaled  design mastery at A Plus Studio – where invention meets complication. Elevate your space with bespoke innards that  review luxury and reflect your unique style. aplusstudio noida',
+  
+    images: [{
+      url: '/AP4.jpg',
+      width: 400,
+      height: 300,
+    }]
+  },
+  
 }
 
 
