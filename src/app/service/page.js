@@ -46,7 +46,7 @@ const Services = () => {
         <div
           className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center md:flex-row-reverse">
           <div className="w-full md:w-1/4 space-y-4">
-            <h2 style={{ marginLeft: 30, marginRight: 30 }} className="font-medium text-2xl">High Quality Doores</h2>
+            <h2 style={{ marginLeft: 30, marginRight: 30 }} className="font-medium text-2xl">High Quality Doors</h2>
             <h3 style={{ marginLeft: 30, marginRight: 30 }}>
                   A plus studio provides the high & good quality of doores. with concealed hinge quality of hinges  for your interior swinging doors. with movement, Adjustability and functionality.
                 </h3>
