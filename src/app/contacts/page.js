@@ -5,9 +5,6 @@ export const metadata = {
   description: 'Contects of A Plus Studio | it provides the Door with good quality and it also provide the wall cladding. | Discover  unequaled  design mastery at A Plus Studio.',
   alternates:{
     canonical: '/contacts',
-    languages:{
-      'en': '/en/contacts'
-    }
   },
   openGraph: {
     title:'A Plus Studio',

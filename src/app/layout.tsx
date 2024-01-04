@@ -51,10 +51,6 @@ export const metadata: Metadata = {
 
   alternates: {
     canonical: '/service',
-    languages: {
-      'en-US': '/en-US',
-      'de-DE': '/de-DE',
-    },
   },
   openGraph: {
     title:'A Plus Studio',
