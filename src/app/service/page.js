@@ -32,7 +32,7 @@ const Services = () => {
                   alt="ecommerce"
                   width={450}
                   height={100}
-                  className=' rounded-sm'
+                  className=' rounded-md'
                   priority sizes='40vw'
                 />
               </div>
@@ -54,7 +54,7 @@ const Services = () => {
               alt="ecommerce"
               width={450}
               height={100}
-              className='rounded-sm'
+              className='rounded-md'
               priority sizes='40vw'
             />
           </div>
