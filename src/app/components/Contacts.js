@@ -113,7 +113,7 @@ const Contact = () => {
                       https://aplusstudio.in
                     </p>
                     <p className="text-neutral-600 ">
-                      +1 234-567-89
+                      +91 9205747006
                     </p>
                   </div>
                 </div>
@@ -136,7 +136,7 @@ const Contact = () => {
                       aplusstudio.in
                     </p>
                     <p className="text-neutral-600 ">
-                      +1 234-567-89
+                    +91 9205747006
                     </p>
                   </div>
                 </div>
